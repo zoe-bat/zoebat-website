@@ -1,0 +1,3 @@
+# license
+
+this code may not be used for any purpose. be gay, do crime
