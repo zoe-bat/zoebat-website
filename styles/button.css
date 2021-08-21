@@ -1,0 +1,72 @@
+.imageButton:hover img,
+.imageButton:focus img {
+  animation: 700ms hoverAnimation forwards;
+}
+
+.imageButton img {
+  transition: all 50ms;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  1% {
+    transform: rotate(40deg) scale(2.1, 1.1);
+  }
+  20% {
+    transform: rotate(-20deg) scale(1.1, 2.1);
+  }
+  60% {
+    transform: rotate(10deg) scale(1.7, 1.5);
+  }
+  70% {
+    transform: rotate(-5deg) scale(1.4, 1.6);
+  }
+  80% {
+    transform: rotate(4deg) scale(1.6, 1.4);
+  }
+
+  90% {
+    transform: scale(1.4, 1.6);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1.5);
+  }
+}
+
+.bouncy:focus,
+.bouncy:hover {
+  border-bottom: inset;
+  animation: 700ms borderBounce forwards;
+  border-radius: 0px;
+}
+
+@keyframes borderBounce {
+  0% {
+    border-bottom-width: 0px;
+  }
+  10% {
+    border-bottom-width: 24px;
+  }
+
+  40% {
+    border-bottom-width: 2px;
+  }
+
+  60% {
+    border-bottom-width: 15px;
+  }
+
+  70% {
+    border-bottom-width: 7px;
+  }
+  80% {
+    border-bottom-width: 13;
+  }
+  100% {
+    border-bottom-width: 10px;
+  }
+}

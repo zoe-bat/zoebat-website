@@ -1,0 +1,45 @@
+@import "color.css";
+@import "fonts.css";
+@import "footer.css";
+@import "cover.css";
+@import "button.css";
+
+* {
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat;
+  background-image: url(../media/images/bg.svg);
+  background-size: 192px;
+  animation: 20s infinite movetoDownRight linear;
+}
+
+@keyframes movetoDownRight {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 192px 192px;
+  }
+}
+
+.container {
+  overflow: auto;
+  box-sizing: content-box;
+  width: 85%;
+  padding: 15px;
+  margin: 25px auto;
+}
+
+.imageButton img {
+  width: 48px;
+  height: 48px;
+  border-radius: 0px;
+  margin: 5px;
+}

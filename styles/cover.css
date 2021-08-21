@@ -1,0 +1,26 @@
+.cover {
+  width: 100%;
+  height: auto;
+  max-width: 512px;
+  margin: 15px;
+  float: right;
+}
+
+@media (max-width: 850px) {
+  .cover {
+    float: none;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .cover {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 300px) {
+  .cover {
+    max-width: 200px;
+  }
+}

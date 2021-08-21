@@ -1,0 +1,29 @@
+/* feet */
+
+footer * {
+  overflow: visible;
+}
+
+footer {
+  padding: 10px;
+  border-radius: 0px;
+  position: sticky;
+  overflow: visible;
+  left: 0;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+}
+.footerNav {
+  display: flexbox;
+  margin: 0px;
+  padding: 0px;
+  width: 95%;
+}
+.footerRight {
+  overflow: visible;
+  float: right;
+}
+.footerLeft {
+  margin: 0px, auto;
+}

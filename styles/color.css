@@ -1,0 +1,53 @@
+:root {
+  --text: #f1edff;
+  --highlight: #feb8ff;
+  --background: #28202e;
+  --link: #b0ff82;
+  --highlightBright: #fff8bd;
+  --opacity: rgba(40, 32, 46, 0.70);
+}
+
+h1 {
+  color: var(--highlightBright);
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: var(--highlight);
+}
+
+p {
+  color: var(--text);
+}
+
+.container {
+  background-color: var(--opacity);
+  filter: drop-shadow(5px 5px 5px var(--background));
+}
+
+footer {
+  background-color: var(--background);
+  filter: drop-shadow(5px 5px 5px var(--background));
+  overflow: auto;
+}
+body {
+  background-color: var(--highlight);
+  border-color: var(--highlight);
+}
+
+a {
+  color: var(--link);
+  border-color: var(--link);
+}
+
+a:hover {
+  filter: drop-shadow(0 0 10px var(--highlight));
+}
+
+a.active {
+  filter: drop-shadow(0 0 10px var(--highlightBright));
+}
+
+.footerLeft { border-color: var(--text) !important;
